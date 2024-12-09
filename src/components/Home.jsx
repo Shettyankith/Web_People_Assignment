@@ -42,18 +42,18 @@ function Home() {
           <ul
             className={`hidden sm:flex flex-col sm:flex-row w-full sm:w-auto `}
           >
-            <li className="mx-4 hover:underline hover:text-blue-500 transition-all cursor-pointer">
-              Work
-            </li>
-            <li className="mx-4 hover:underline hover:text-blue-500 transition-all cursor-pointer">
-              About
-            </li>
-            <li className="mx-4 hover:underline hover:text-blue-500 transition-all cursor-pointer">
-              Blog
-            </li>
-            <li className="mx-4 hover:underline hover:text-blue-500 transition-all cursor-pointer">
+            <a href="#home" className="mx-4 hover:underline hover:text-blue-500 transition-all cursor-pointer">
+              Home
+            </a>
+            <a href="#work" className="mx-4 hover:underline hover:text-blue-500 transition-all cursor-pointer">
+              work
+            </a>
+            <a href="#about" className="mx-4 hover:underline hover:text-blue-500 transition-all cursor-pointer">
+              about
+            </a>
+            <a href="#contact" className="mx-4 hover:underline hover:text-blue-500 transition-all cursor-pointer">
               Contact
-            </li>
+            </a>
           </ul>
         </nav>
       </header>
