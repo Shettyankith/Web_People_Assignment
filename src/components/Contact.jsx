@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 function Contact() {
   return (
-    <section className="text-center md:text-left p-4 pt-2 h-max sm:mx-10 lg:mx-32 md:mx-20">
+    <section id="contact" className="text-center md:text-left p-4 pt-2 h-max sm:mx-10 lg:mx-32 md:mx-20">
       <h1 className="capitalize text-4xl font-bold mb-4">Contact us.</h1>
       <p className=" font-medium mb-4">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit qui

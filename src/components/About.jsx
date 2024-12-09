@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 function About() {
     return ( 
-        <section className='text-center md:text-left p-4 pt-2 h-max sm:mx-10 lg:mx-32 md:mx-20'>
+        <section id="about" className='text-center md:text-left p-4 pt-2 h-max sm:mx-10 lg:mx-32 md:mx-20'>
             <h1 className='capitalize text-4xl font-bold mb-4'>About us.</h1>
             <p className=' font-medium'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit qui dignissimos repudiandae aspernatur, porro, minus error incidunt nobis natus architecto assumenda necessitatibus excepturi rerum sequi magnam iusto aliquam nam. Deserunt.</p>
             <div className=' lg:flex my-4 lg:justify-evenly '>

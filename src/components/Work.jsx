@@ -2,12 +2,12 @@ import React, { Component } from "react";
 
 function Work() {
   return (
-    <section className="text-center md:text-left p-4 pt-2 h-max lg:mx-32 md:mx-20 sm:md-10 ">
+    <section id="work" className="text-center md:text-left p-4 pt-2 h-max lg:mx-32 md:mx-20 sm:md-10 ">
       <h1 className="uppercase text-3xl font-bold my-4">work showcase.</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 h-fit">
         <div className="bg-blue-500 hover:bg-blue-600 transition-all text-3xl text-white flex items-center justify-center col-span-1 md:row-span-2 h-46">
           <div className="text-center font-bold">
-            <p className="tracking-[1.5rem]">ARTWORK</p>
+            <p className="tracking-[1rem] md:tracking-[1.5rem]">ARTWORK</p>
             <p className="text-xl font-medium">BRANDING</p>
           </div>
         </div>
