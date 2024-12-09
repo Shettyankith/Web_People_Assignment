@@ -1,4 +1,16 @@
 import React, { Component } from "react";
+import work1 from "./../assets/work1.jpg";
+import work2 from "./../assets/work2.jpg";
+import work3 from "./../assets/work3.jpg";
+import work4 from "./../assets/work4.jpg";
+import work5 from "./../assets/work5.jpg";
+import work6 from "./../assets/work6.jpg";
+import logo1 from "./../assets/Logo-1.png";
+import logo2 from "./../assets/Logo-2.png";
+import logo3 from "./../assets/Logo-3.png";
+import logo4 from "./../assets/Logo-4.png";
+import logo5 from "./../assets/Logo-5.png";
+
 
 function Work() {
   return (
@@ -14,7 +26,7 @@ function Work() {
 
         <div className="h-46 col-span-1 md:row-span-2 flex items-center justify-center">
           <img
-            src="/src/assets/work6.jpg"
+            src={work6}
             alt="image"
             className="h-full w-full object-scale-down hover:scale-105 transition-all"
           />
@@ -22,7 +34,7 @@ function Work() {
 
         <div className="h-46 col-span-1 md:row-span-2 flex items-center justify-center">
           <img
-            src="/src/assets/work2.jpg"
+            src={work2}
             alt="image"
             className="h-full w-full object-scale-down hover:scale-105 transition-all"
           />
@@ -30,7 +42,7 @@ function Work() {
 
         <div className="h-46 col-span-1 md:row-span-2 flex items-center justify-center">
           <img
-            src="/src/assets/work3.jpg"
+            src={work3}
             alt="image"
             className="h-full w-full object-scale-down hover:scale-105 transition-all"
           />
@@ -38,7 +50,7 @@ function Work() {
 
         <div className="h-46 col-span-1 md:row-span-2 flex items-center justify-center">
           <img
-            src="/src/assets/work4.jpg"
+            src={work4}
             alt="image"
             className="h-full w-full object-scale-down hover:scale-105 transition-all"
           />
@@ -46,7 +58,7 @@ function Work() {
 
         <div className="h-46 col-span-1 md:row-span-4 flex items-center justify-center">
           <img
-            src="/src/assets/work5.jpg"
+            src={work5}
             alt="image"
             className="h-full w-full object-scale-down hover:scale-105 transition-all"
           />
@@ -59,27 +71,27 @@ function Work() {
 
       <div className="flex my-6 justify-center items-center flex-wrap">
         <img
-          src="/src/assets/Logo-1.png"
+          src={logo1}
           alt="image"
           className="mx-5 object-scale-down hover:scale-110 transition-all"
         />
         <img
-          src="/src/assets/Logo-2.png"
+          src={logo2}
           alt="image"
           className="mx-5 object-scale-down hover:scale-110 transition-all"
         />
         <img
-          src="/src/assets/Logo-3.png"
+          src={logo3}
           alt="image"
           className="mx-5 object-scale-down hover:scale-110 transition-all"
         />
         <img
-          src="/src/assets/Logo-4.png"
+          src={logo4}
           alt="image"
           className="mx-5 object-scale-down hover:scale-110 transition-all"
         />
         <img
-          src="/src/assets/Logo-5.png"
+          src={logo5}
           alt="image"
           className="mx-5 object-scale-down hover:scale-110 transition-all"
         />

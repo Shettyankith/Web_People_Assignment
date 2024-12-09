@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import banner from "./../assets/one.jpg";
+
 function Contact() {
   return (
     <section id="contact" className="text-center md:text-left p-4 pt-2 h-max sm:mx-10 lg:mx-32 md:mx-20">
@@ -39,7 +41,7 @@ function Contact() {
             </button>
           </form>
         </div>
-        <img src="/src/assets/one.jpg" alt="image" className="h-80 w-fit justify-self-center object-scale-down hover:scale-110 transition-all"/>
+        <img src={banner} alt="image" className="h-80 w-fit justify-self-center object-scale-down hover:scale-110 transition-all"/>
       </div>
       <div className="flex justify-center items-center my-4">
         <i className="fa-brands fa-square-facebook mx-3 text-3xl hover:text-blue-500 transition-all"></i>

@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import img from "./../assets/two.jpg";
+import logo from "./../assets/Main-Logo.png"
+
 function Home() {
   // Menu button toggle
   const [menu, setmenu] = useState(false);
@@ -11,7 +14,7 @@ function Home() {
         {/* Website Logo */}
         <div>
           <img
-            src="/src/assets/Main-Logo.png"
+            src={logo}
             alt="logo"
             className="w-20 h-14 cursor-pointer"
           />
@@ -79,7 +82,7 @@ function Home() {
         </div>
         <div className="mb-4">
           <img
-            src="./src/assets/two.jpg"
+            src={img}
             alt="image"
             className="object-scale-down hover:scale-110 transition-all"
           />

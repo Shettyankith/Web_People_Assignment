@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import person1 from "./../assets/four.jpg";
+import person2 from "./../assets/five.jpg";
 
 function About() {
     return ( 
@@ -7,14 +9,14 @@ function About() {
             <p className=' font-medium'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit qui dignissimos repudiandae aspernatur, porro, minus error incidunt nobis natus architecto assumenda necessitatibus excepturi rerum sequi magnam iusto aliquam nam. Deserunt.</p>
             <div className=' lg:flex my-4 lg:justify-evenly '>
                 <div className='m-4 sm:basis-1/2  object-scale-down hover:scale-110 transition-all flex flex-col justify-center items-center'>
-                    <img src="/src/assets/four.jpg" alt="image" className='h-80 w-56'/>
+                    <img src={person1} alt="image" className='h-80 w-56'/>
                     <div className='bg-blue-500 text-center p-4 hover:bg-blue-600 w-56 transition-all'>
                         <p className='text-black font-bold'>Luke Skywalker</p>
                         <p className='text-white font-meduim'>Web Designer</p>
                     </div>
                 </div>
                 <div className='m-4 sm:basis-1/2 sm:h-50 object-scale-down hover:scale-110 transition-all flex flex-col justify-center items-center'>
-                    <img src="/src/assets/five.jpg" alt="image" className='h-80 w-56'/>
+                    <img src={person2} alt="image" className='h-80 w-56'/>
                     <div className='bg-blue-500 text-center p-4 hover:bg-blue-600 w-56 transition-all'>
                         <p className='text-black font-bold'>Luke Skywalker</p>
                         <p className='text-white font-medium'>Web Designer</p>
