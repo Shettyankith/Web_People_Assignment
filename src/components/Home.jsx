@@ -79,7 +79,7 @@ function Home() {
         </div>
         <div className="mb-4">
           <img
-            src="/src/assets/two.jpg"
+            src="./src/assets/two.jpg"
             alt="image"
             className="object-scale-down hover:scale-110 transition-all"
           />
